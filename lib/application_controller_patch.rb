@@ -1,6 +1,6 @@
 require_dependency 'application_controller'
 
-module ApiAuthFix
+module RedmineApiAuthFix
   module ApplicationControllerPatch
     def self.included(base)
       base.class_eval do
